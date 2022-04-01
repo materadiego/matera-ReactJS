@@ -3,6 +3,7 @@ import * as React from "react";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
+import Cart from "./CartWidget";
 
 export default function NavBar() {
   const [value, setValue] = React.useState("one");
@@ -29,6 +30,7 @@ export default function NavBar() {
           <Tab value="three" label="Contacto" className="MenuOptions" />
         </Tabs>
       </Box>
+      <Cart />
     </header>
   );
 }
