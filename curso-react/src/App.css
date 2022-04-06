@@ -1,5 +1,9 @@
-.App {
+#root {
+  background-color: #333;
   height: 100vh;
+}
+
+.App {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -63,7 +67,31 @@
   font-size: 26px;
 }
 
-.ItemList {
-  color: #1976d2;
-  font-size: 36px;
+.ItemCount {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.Button {
+  height: 50px;
+}
+
+.ItemCountButton {
+  font-size: 26px;
+  width: 30px;
+  height: 30px;
+}
+
+.ItemCountNumber {
+  font-size: 26px;
+  background-color: #fff;
+  margin: 0 20px;
+  padding: 5px 10px;
+}
+
+h2 {
+  color: #fff;
 }
