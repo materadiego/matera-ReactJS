@@ -2,6 +2,7 @@ import ItemCount from "./ItemCount";
 
 export default function ItemListContainer(props) {
   const { stockMax } = props;
+  
 
   return (
     <>
@@ -11,7 +12,7 @@ export default function ItemListContainer(props) {
         Stock: 7
       </h2>
 
-      <ItemCount stockMax={7} />
+      <ItemCount stockMax={7} onAdd />
     </>
   );
 }
